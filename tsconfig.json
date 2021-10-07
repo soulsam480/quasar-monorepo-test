@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es6",
+    "types": ["quasar"],
+    "paths": {
+      "app1/*": ["./app1/*"],
+      "app2/*": ["./app2/*"],
+      "lib/*": ["./lib/*"]
+    }
+  },
+  "exclude": ["/dist", ".quasar", "node_modules"]
+}

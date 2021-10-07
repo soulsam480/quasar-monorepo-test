@@ -1,0 +1,17 @@
+{
+  "name": "monorepo-test",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev:app2": "yarn workspace app2 dev"
+  },
+  "workspaces": [
+    "app1",
+    "app2",
+    "lib"
+  ],
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
