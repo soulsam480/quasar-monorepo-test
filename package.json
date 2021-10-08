@@ -4,7 +4,8 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev:app2": "yarn workspace app2 dev"
+    "dev:app2": "yarn workspace app2 dev",
+    "dev:app1": "yarn workspace app1 dev"
   },
   "workspaces": [
     "app1",

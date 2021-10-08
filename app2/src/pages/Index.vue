@@ -4,7 +4,7 @@ import AnotherComponent from 'lib/src/AnotherComponent.vue';
 </script>
 <template>
   <div>
-    <from-lib />
-    <AnotherComponent />
+    <from-lib some="ss" />
+    <another-component />
   </div>
 </template>

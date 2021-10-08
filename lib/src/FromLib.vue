@@ -1,9 +1,19 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
+const emit = defineEmits<{
+  (e: 'some'): void;
+}>();
+
+defineProps<{
+  some: string;
+}>();
+
 const some = ref(1);
 
 function counter() {
+  emit('some');
+
   some.value++;
 }
 </script>
